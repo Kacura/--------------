@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" 
+    rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/css_icon/all.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+<!-- https://www.figma.com/file/WVY2TvHQq0b0Gw63Je0leM/%D0%BC%D1%83%D0%BB%D1%8C%D1%82%D1%84%D0%B8%D0%BB%D1%8C%D0%BC%D1%8B-(Copy)?type=design&node-id=2-2&mode=design&t=RpY9KtiPX4dO1RaW-0 -->
+<body>
+    <div class="wrap">
+        <div class="container">
+            <div class="main">
+                <div class="sad_lucky"><img class="sad" src="images/urod1.png" >
+                    <img class="lucky" src="images/urod2.png" ></div>
+                <p><span>Мультистория &nbsp;</span><span> - мастерская мультфильмов</span></p><br>
+                <div class="uldiv">
+                <ul class="line">
+                    <li><img class="logo" src="images/logo.png" alt="logo"></li>
+                    <img class="pin" src="images/map_pin.png">
+                    <li><a href="map.html" target="_blank"> г. Самара <br><b>ул. Печерская, 20А</b></a></li>
+                    <img class="phone" src="images/phone_icon.png" >
+                    <li>8 (995) 131-04-90<br>Позвоните нам</li>
+                    <li><button>Заказать звонок</button></li>
+                </ul></div>
+                <div class="haslo">
+                    <h3>Увлекательные <br>
+                        мастер-классы для детей</h3>
+                    <h1>Мультфильмы <br>
+                        своими руками</h1>
+                    <h3>Каждую неделю!</h3>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Узнайте расписание
+                      </button><br>
+                      <!-- Modal -->
+                      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h1 class="modal-title fs-5" id="exampleModalLabel">Заполните форму<br>
+                                 и мы сами перзвоним Вам<br> в ближайшее время</h1>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              <input type="text" name="NAME" value="   Имя"> <br>
+                              <input type="text" name="telef" value="   Телефон"> <br>
+                            </div>
+                            <div class="modal-footer">
+                              <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button> -->
+                              <button type="button" class="btn btn-primary">Отправить</button>
+                              <div> <span>Нажимая на кнопку “Отправить”, <br>
+                                вы даете согласие на обработку своих персональных данных</span></div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    <div id="carouselExampleIndicators" class="carousel slide">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="images/slider.png" class="d-block w-100">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="images/slider1.png" class="d-block w-100" >
+                          </div>
+                          <div class="carousel-item">
+                            <img src="images/slider2.png" class="d-block w-100">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="whatit">
+                <h3>Что такое мастер - класс по мультипликации?</h3> <br>
+                <p>
+                    <h4>Это незабываемое событие <br> для каждого ребенка</h4>
+                    <span class="dela">На мастер-классе дети узнают о мультипликации, <br>фантазируют, создают настоящий мультфильм,
+                         <br> играют и веселятся!</span>
+                </p>
+                <div><img class="cat" src="images/cat.png">
+                    <svg class="speech" width="204" height="154" viewBox="0 0 204 154" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M108.5 154C161.243 154 204 119.526 204 77C204 
+                        34.4741 161.243 0 108.5 0C55.7568 0 13 34.4741 13 77C13 83.4777 13.9921 89.7686 15.8604 95.7793L0
+                         127.5L25.1833 114.661C41.5426 138.138 72.7239 154 108.5 154Z" fill="white" />
+                      </svg>
+                      <span class="words">Снимать мультики <br>- это весело!</span>
+                <div class="describe">
+                    <div class="descr"><img src="images/clock.png" ><br> </div>
+                    <div class="descr"><img src="images/users_icon.png"><br> </div>
+                    <div class="divpod"><span class="pod">от 1,5 часов</span> <br><span class="poddva">Длительность <br>мастер класса</span></div>
+                    <div class="divpod"><span class="pod">5 - 14 лет</span> <br><span class="poddva">Программы для <br>разных возрастов</span></div>
+                    <div class="descr"><img src="images/dollar.png"><br> </div>
+                    <div class="descr"><img src="images/tv.png"><br> </div>
+                    <div class="divpod"><span class="pod">от 300 руб</span> <br><span class="poddva">Стоимость <br>участия</span></div>
+                    <div class="divpod"><span class="pod">Мультфильм <br> своими руками</span> <br><span class="poddva">Удивите родных и друзей</span></div>
+                </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="promo">
+                <h3>Что дети делают на мастер - классе?</h3> <br>
+                <button>придумывают сюжет</button>
+                <div class="promoimg">
+                    <div><img class="banty" src="images/banty.png" alt=""></div>
+                    <div><img class="lepka" src="images/lepka.png" alt=""></div>
+                    <div class="camerimg"><img class="camer" src="images/camer.png" alt=""></div> <br>
+                    <div class="soundimg"><img class="sound" src="images/sound.png" alt="">
+                        <img class="mamki" src="images/mamki.png" alt=""></div>
+                    <div></div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="visit">
+                <h3>Почему стоит побывать на мастер - классе <br>по мультипликации?</h3> <br>
+                <div class="visitflex">
+                    <div class="opisan">
+                        <div><img src="images/check_icon.png" alt=""><span>Это незабываемое событие для ребенка</span><br>
+                            <p>Дети обожают мультики, а создать настоящий мультфильм <br>своими руками - это просто восторг!</p>
+                        </div>
+                        <div><img src="images/check_icon.png" alt=""><span>Это эксклюзивный и уникальный вид <br>
+                            досуга на рынке детских услуг</span><br><p>Где ещё, как не в Мультистории, можно прийти и создать 
+                                <br>настоящий мультфильм своими руками?</p></div>
+                        <div><img src="images/check_icon.png" alt=""><span>Интересные и познавательные факты <br>о 
+                            мультипликации</span><br><p>Что такое мультипликация? Когда и как был снят первый <br>
+                            мультфильм? Какие техники мультипликации существуют?<br>
+                            И мнногое-многое другое.</p></div>
+                    </div>
+                    <div class="opisan">
+                        <div><img src="images/check_icon.png" alt=""><span>Дети пробуют новые виды творчества</span>
+                            <p>Придумывание сюжета, изготовление декораций <br>
+                            и персонажей, работа с техникой, съемка на <br>мульт-станке и озвучка может открыть таланты 
+                            <br>вашего ребенка, о которых Вы даже подозревали.</p></div>
+                        <div><img src="images/check_icon.png" alt=""><span>Мастер-классы ещё и очень полезны <br>
+                            для детей</span><p>На мастер-классе дети делают мультфильмы <br>
+                                не в компьютере, а в реальной жизни<br>Формируются социальные навыки, развивается<br> 
+                                воображение, а также навыки коммуникации <br>
+                                и совместного творчества с другими детьми</p></div> 
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="meethero">
+                    <div><img class="pervy" src="images/blank1.png" alt="">
+                    <img class="vtoro" src="images/blank.png" alt=""></div>
+                    <h3>Ваш ребёнок встретится с любимыми героями</h3> <br>
+                    <p>Динозавры, Пираты, LEGO, Гарри Поттер, Монстры на каникулах, Черепашки ниндзя, Мимимишки, Роботы, Миньоны,<br>
+                         Космос, Щенячий патруль, Ледибаг, Супер-кот, Майнкрафт и многие-многие другие!</p>
+                        <div class="HM">
+                            <img src="images/heromeet.png" alt="">
+                        </div>
+                        <div class="signup">
+                            <span>Запишитесь на мастер-класс <br>
+                                с любилыми героями вашего ребенка</span><br>
+                            <button>Записаться заранее</button>
+                        </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="demonstra">
+                    <h3>Посмотрите мультфильмы с мастер - классов</h3> <br>
+                    <div class="mult">
+                        <div class="one"><iframe width="518" height="291" src="https://www.youtube.com/embed/3KI8VG_GmjU?si=
+                            PKljaSfsKfZuca7k" title="YouTube video player" frameborder="0" allow="accelerometer; 
+                            autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+                        <div class="two"><iframe width="238" height="134" src="https://www.youtube.com/embed/iTzDlTe4qyc?si=
+                            btE8k_al12wA70Gc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
+                            clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+                        <div class="three"><iframe width="238" height="134" src="https://www.youtube.com/embed/E-Cp9-U3-Kw?si=
+                            8jrrI3ZUldIdM24z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
+                            clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+                        <div class="four"><iframe width="238" height="134" src="https://www.youtube.com/embed/oWhk-PKdcn4?si=
+                            64vMVcsYohj2jrNT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
+                            clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+                        <div class="five"><iframe width="238" height="134" src="https://www.youtube.com/embed/Tve8MJgPWcU?si=
+                            zm2bZzLYPig9od8h" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
+                            clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="else">
+                    <h3>А ещё у нас проходят</h3>
+                    <div class="elsepromo">
+                        <div class="elseone"><span>Праздничные<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;мастер-классы</span><br><p>Игровая программа, <br>
+                            приуроченная к календарным <br>
+                            праздникам: Новому году, <br>
+                            23 февраля, Хэллоуину и другим.</p></div>
+                        <div class="elsetwo"><span>Праздничные<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;мастер-классы</span><br><p>Игровая программа, <br>
+                            приуроченная к календарным <br>
+                            праздникам: Новому году, <br>
+                            23 февраля, Хэллоуину и другим.</p></div>
+                        <div class="elsethree"><span>Праздничные<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;мастер-классы</span><br><p>Игровая программа, <br>
+                            приуроченная к календарным <br>
+                            праздникам: Новому году, <br>
+                            23 февраля, Хэллоуину и другим.</p></div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="gray">
+                    <div class="grayback">
+                        <img class="ufoo" src="images/ufo1.png" alt="">
+                        <img class="ufot" src="images/ufo2.png" alt="">
+                        <span>Запишитесь заранее</span>
+                        <p>Узнайте о предстоящих мероприятиях и забронируйте участие</p>
+                        <button>Узнать расписание</button>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="review">
+                    <h3>Что говорят родители</h3>
+                    <div class="revone">Добрый вечер!получили от вас <br>суперский мультик, как мы <br>
+                        безмерно счастливы!огромное <br>спасибо за трепетное <br>
+                        и чуткое отношение и конечно <br>профессионализм!!!будем вас <br>
+                        советовать друзьям!спасибо за <br>праздник, за такой памятный <br>
+                        подарок!спасибо!!!!!спасибо!!! 💐<br>💐💐💐💐💐</div>
+                    <div class="revtwo">Хочу оставить отзыв о мастер-классе<br>“Симпсоны”. Ребенок сказал, что это был <br>
+                        лучший день в его жизни. 💪🏻 Было <br>интересно как ребенку, так и мне)) Как <br>
+                        хорошо, что у нас в городе есть такое. <br>Мы ещё обязательно придём! Большое <br>
+                        спасибо! 👍🏻👍🏻👍🏻 <br><br>
+                        Елена Надтока</div>
+                    <div class="revthree">Приводили детей на МК “Кругосветка. Сначала <br>немного насторожила продолжительность в три <br>
+                        часа. Но всё прошло как на одном дыхании. <br><br>
+                        Ника Зварич</div>
+                        <div class="telega"></div>
+                        <div class="baloon"></div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="lastdiv">
+                    <div class="chance">
+                        <h4>Запишитесь</h4>
+                        <span>на ближайший мастер - классс</span>
+                        <h4>прямо сейчас</h4><br>
+                        <form method="post" action="">
+                            <input class="inp" type="text" name="name" placeholder="&nbsp;&nbsp;&nbsp;Имя"> <br>
+                            <input class="inp" type="text" name="tel" placeholder="&nbsp;&nbsp;&nbsp;Телефон"> <br>
+                            <input class="zapis" type="submit" value="Записаться">
+                        </form>
+                        <p>
+                            Нажимая на кнопку “Отправить”, <br>вы даете согласие на обработку своих персональных данных
+                        </p>
+                    </div>
+                    
+                    <div class="dreamcat"><img class="dream" src="images/dream.png" alt="">
+                        <p>Каждый ребенок в детстве <br>ну просто обязан нарисовать дом, <br>
+                            вылепить дерево <br>и снять мультфильм!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="footer">
+                    <div class="footerline">
+                    <ul class="footline">
+                        <li><img class="footlogo" src="images/logo1.png" alt="logo"></li>
+                        <div class="footpin"><i class="fa-solid fa-location-dot"></i></div>
+                        <li>г. Самара <br><b>ул. Печерская, 20А</b></li>
+                        <div class="footphone"><i class="fa-solid fa-phone"></i></div>
+                        <li>8 (995) 131-04-90<br>Позвоните нам</li>
+                        <li><img src="images/Instagram.png" alt=""></li>
+                    </ul></div> <br>
+                    <hr>
+                    <div class="tradem">2016 - 2020 Мультистория</div>
+                </div>
+
+            </div>
+        </div>
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>  
+</body>
+</html>
